@@ -1,4 +1,4 @@
-# Install script for directory: /home/lars/Dev/Uni/glframework/ext/glfw/src
+# Install script for directory: /home/lars/Dev/Uni/ICG/01/ext/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src/libglfw3.a")
 endif()
 

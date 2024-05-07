@@ -1,4 +1,4 @@
-# Install script for directory: /home/lars/Dev/Uni/glframework/ext/glm
+# Install script for directory: /home/lars/Dev/Uni/ICG/01/ext/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/glm/cmake_install.cmake")
+  include("/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/glm/cmake_install.cmake")
 
 endif()
 

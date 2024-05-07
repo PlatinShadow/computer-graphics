@@ -1,4 +1,4 @@
-# Install script for directory: /home/lars/Dev/Uni/glframework/ext/glm/glm
+# Install script for directory: /home/lars/Dev/Uni/ICG/01/ext/glm/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

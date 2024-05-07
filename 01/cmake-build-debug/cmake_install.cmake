@@ -1,4 +1,4 @@
-# Install script for directory: /home/lars/Dev/Uni/glframework
+# Install script for directory: /home/lars/Dev/Uni/ICG/01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/cmake_install.cmake")
+  include("/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/cmake_install.cmake")
+  include("/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lars/Dev/Uni/glframework/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lars/Dev/Uni/ICG/01/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

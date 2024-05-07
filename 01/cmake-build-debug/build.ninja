@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/lars/Dev/Uni/glframework/cmake-build-debug/
+cmake_ninja_workdir = /home/lars/Dev/Uni/ICG/01/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target imgui
 
@@ -49,52 +49,52 @@ cmake_ninja_workdir = /home/lars/Dev/Uni/glframework/cmake-build-debug/
 
 build cmake_object_order_depends_target_imgui: phony || CMakeFiles/imgui.dir
 
-build CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/ext/imgui
 
-build CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/ext/imgui
 
-build CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/ext/imgui
 
-build CMakeFiles/imgui.dir/ext/imgui/imgui_tables.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/ext/imgui/imgui_tables.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/ext/imgui/imgui_tables.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/ext/imgui
 
-build CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/ext/imgui
 
-build CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_glfw.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_glfw.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_glfw.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/ext/imgui/backends
 
-build CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/ext/imgui/backends
 
@@ -123,10 +123,10 @@ build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug CMakeFiles/imgui.dir/ex
 
 build cmake_object_order_depends_target_glad: phony || CMakeFiles/glad.dir
 
-build CMakeFiles/glad.dir/ext/glfw/deps/glad_gl.c.o: C_COMPILER__glad_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/deps/glad_gl.c || cmake_object_order_depends_target_glad
+build CMakeFiles/glad.dir/ext/glfw/deps/glad_gl.c.o: C_COMPILER__glad_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/deps/glad_gl.c || cmake_object_order_depends_target_glad
   DEP_FILE = CMakeFiles/glad.dir/ext/glfw/deps/glad_gl.c.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends
   OBJECT_DIR = CMakeFiles/glad.dir
   OBJECT_FILE_DIR = CMakeFiles/glad.dir/ext/glfw/deps
 
@@ -155,10 +155,10 @@ build libglad.a: C_STATIC_LIBRARY_LINKER__glad_Debug CMakeFiles/glad.dir/ext/glf
 
 build cmake_object_order_depends_target_GLFramework: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui resources shaders
 
-build CMakeFiles/GLFramework.dir/src/main.cpp.o: CXX_COMPILER__GLFramework_unscanned_Debug /home/lars/Dev/Uni/glframework/src/main.cpp || cmake_object_order_depends_target_GLFramework
+build CMakeFiles/GLFramework.dir/src/main.cpp.o: CXX_COMPILER__GLFramework_unscanned_Debug /home/lars/Dev/Uni/ICG/01/src/main.cpp || cmake_object_order_depends_target_GLFramework
   DEP_FILE = CMakeFiles/GLFramework.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include
   OBJECT_DIR = CMakeFiles/GLFramework.dir
   OBJECT_FILE_DIR = CMakeFiles/GLFramework.dir/src
 
@@ -196,7 +196,7 @@ build resources: phony CMakeFiles/resources
 # Utility command for submission
 
 build CMakeFiles/submission.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/glframework/src /home/lars/Dev/Uni/glframework/submission/src && cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/glframework/shaders /home/lars/Dev/Uni/glframework/submission/shaders && cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/glframework/res /home/lars/Dev/Uni/glframework/submission/res
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/ICG/01/src /home/lars/Dev/Uni/ICG/01/submission/src && cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/ICG/01/shaders /home/lars/Dev/Uni/ICG/01/submission/shaders && cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/ICG/01/res /home/lars/Dev/Uni/ICG/01/submission/res
   DESC = Running utility command for submission
   restat = 1
 
@@ -207,7 +207,7 @@ build submission: phony CMakeFiles/submission.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/ccmake -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/ccmake -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -219,7 +219,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -237,7 +237,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -249,7 +249,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -261,7 +261,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -273,18 +273,18 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Custom command for CMakeFiles/shaders
 
 build CMakeFiles/shaders | ${cmake_ninja_workdir}CMakeFiles/shaders: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/glframework/shaders /home/lars/Dev/Uni/glframework/cmake-build-debug/shaders
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/ICG/01/shaders /home/lars/Dev/Uni/ICG/01/cmake-build-debug/shaders
 
 
 #############################################
 # Custom command for CMakeFiles/resources
 
 build CMakeFiles/resources | ${cmake_ninja_workdir}CMakeFiles/resources: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/glframework/res /home/lars/Dev/Uni/glframework/cmake-build-debug/res
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug && /usr/bin/cmake -E copy_directory /home/lars/Dev/Uni/ICG/01/res /home/lars/Dev/Uni/ICG/01/cmake-build-debug/res
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/lars/Dev/Uni/glframework/CMakeLists.txt
+# /home/lars/Dev/Uni/ICG/01/CMakeLists.txt
 # =============================================================================
 
 
@@ -298,7 +298,7 @@ build ext/glfw/uninstall: phony ext/glfw/CMakeFiles/uninstall
 # Utility command for edit_cache
 
 build ext/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw && /usr/bin/ccmake -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw && /usr/bin/ccmake -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -310,7 +310,7 @@ build ext/glfw/edit_cache: phony ext/glfw/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build ext/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -328,7 +328,7 @@ build ext/glfw/list_install_components: phony
 # Utility command for install
 
 build ext/glfw/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -340,7 +340,7 @@ build ext/glfw/install: phony ext/glfw/CMakeFiles/install.util
 # Utility command for install/local
 
 build ext/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -352,7 +352,7 @@ build ext/glfw/install/local: phony ext/glfw/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build ext/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -364,11 +364,11 @@ build ext/glfw/install/strip: phony ext/glfw/CMakeFiles/install/strip.util
 # Custom command for ext/glfw/CMakeFiles/uninstall
 
 build ext/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}ext/glfw/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw && /usr/bin/cmake -P /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/cmake_uninstall.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw && /usr/bin/cmake -P /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/cmake_uninstall.cmake
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/lars/Dev/Uni/glframework/ext/glfw/CMakeLists.txt
+# /home/lars/Dev/Uni/ICG/01/ext/glfw/CMakeLists.txt
 # =============================================================================
 
 
@@ -386,131 +386,131 @@ build ext/glfw/src/update_mappings: phony ext/glfw/src/CMakeFiles/update_mapping
 
 build cmake_object_order_depends_target_glfw: phony || ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/context.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/init.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/input.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/window.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/x11_init.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/x11_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/x11_monitor.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/x11_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/x11_window.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/x11_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/posix_time.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/posix_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/posix_thread.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/posix_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/glx_context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/glx_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
-build ext/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/glframework/ext/glfw/src/linux_joystick.c || cmake_object_order_depends_target_glfw
+build ext/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/lars/Dev/Uni/ICG/01/ext/glfw/src/linux_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_GLFW_USE_CONFIG_H
   DEP_FILE = ext/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o.d
   FLAGS = -g -std=gnu99 -fPIC -fdiagnostics-color=always -Wall
-  INCLUDES = -I/home/lars/Dev/Uni/glframework/GLFramework -I/home/lars/Dev/Uni/glframework/PUBLIC -I/home/lars/Dev/Uni/glframework/cmake-build-debug -I/home/lars/Dev/Uni/glframework/include -I/home/lars/Dev/Uni/glframework/ext/glm -I/home/lars/Dev/Uni/glframework/ext/glfw/deps -I/home/lars/Dev/Uni/glframework/ext/imgui -I/home/lars/Dev/Uni/glframework/ext/imgui/backends -I/home/lars/Dev/Uni/glframework/ext/glfw/include -I/home/lars/Dev/Uni/glframework/ext/glfw/src -I/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+  INCLUDES = -I/home/lars/Dev/Uni/ICG/01/GLFramework -I/home/lars/Dev/Uni/ICG/01/PUBLIC -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug -I/home/lars/Dev/Uni/ICG/01/include -I/home/lars/Dev/Uni/ICG/01/ext/glm -I/home/lars/Dev/Uni/ICG/01/ext/glfw/deps -I/home/lars/Dev/Uni/ICG/01/ext/imgui -I/home/lars/Dev/Uni/ICG/01/ext/imgui/backends -I/home/lars/Dev/Uni/ICG/01/ext/glfw/include -I/home/lars/Dev/Uni/ICG/01/ext/glfw/src -I/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
   OBJECT_DIR = ext/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = ext/glfw/src/CMakeFiles/glfw.dir
 
@@ -535,7 +535,7 @@ build ext/glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug ext/glfw/src/
 # Utility command for edit_cache
 
 build ext/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src && /usr/bin/ccmake -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src && /usr/bin/ccmake -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -547,7 +547,7 @@ build ext/glfw/src/edit_cache: phony ext/glfw/src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build ext/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -565,7 +565,7 @@ build ext/glfw/src/list_install_components: phony
 # Utility command for install
 
 build ext/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND ext/glfw/src/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -577,7 +577,7 @@ build ext/glfw/src/install: phony ext/glfw/src/CMakeFiles/install.util
 # Utility command for install/local
 
 build ext/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glfw/src/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -589,7 +589,7 @@ build ext/glfw/src/install/local: phony ext/glfw/src/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build ext/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glfw/src/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -601,12 +601,12 @@ build ext/glfw/src/install/strip: phony ext/glfw/src/CMakeFiles/install/strip.ut
 # Custom command for ext/glfw/src/CMakeFiles/update_mappings
 
 build ext/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}ext/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/ext/glfw/src && /usr/bin/cmake -P /home/lars/Dev/Uni/glframework/ext/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/ext/glfw/src && /usr/bin/cmake -P /home/lars/Dev/Uni/ICG/01/ext/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/lars/Dev/Uni/glframework/CMakeLists.txt
+# /home/lars/Dev/Uni/ICG/01/CMakeLists.txt
 # =============================================================================
 
 
@@ -614,7 +614,7 @@ build ext/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}ext/glfw/s
 # Utility command for edit_cache
 
 build ext/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm && /usr/bin/ccmake -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm && /usr/bin/ccmake -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -626,7 +626,7 @@ build ext/glm/edit_cache: phony ext/glm/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build ext/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -644,7 +644,7 @@ build ext/glm/list_install_components: phony
 # Utility command for install
 
 build ext/glm/CMakeFiles/install.util: CUSTOM_COMMAND ext/glm/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -656,7 +656,7 @@ build ext/glm/install: phony ext/glm/CMakeFiles/install.util
 # Utility command for install/local
 
 build ext/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glm/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -668,7 +668,7 @@ build ext/glm/install/local: phony ext/glm/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build ext/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glm/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -677,7 +677,7 @@ build ext/glm/install/strip: phony ext/glm/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/lars/Dev/Uni/glframework/ext/glm/CMakeLists.txt
+# /home/lars/Dev/Uni/ICG/01/ext/glm/CMakeLists.txt
 # =============================================================================
 
 
@@ -685,7 +685,7 @@ build ext/glm/install/strip: phony ext/glm/CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build ext/glm/glm/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/glm && /usr/bin/ccmake -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/glm && /usr/bin/ccmake -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -697,7 +697,7 @@ build ext/glm/glm/edit_cache: phony ext/glm/glm/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build ext/glm/glm/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/glm && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/glframework -B/home/lars/Dev/Uni/glframework/cmake-build-debug
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/glm && /usr/bin/cmake --regenerate-during-build -S/home/lars/Dev/Uni/ICG/01 -B/home/lars/Dev/Uni/ICG/01/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -715,7 +715,7 @@ build ext/glm/glm/list_install_components: phony
 # Utility command for install
 
 build ext/glm/glm/CMakeFiles/install.util: CUSTOM_COMMAND ext/glm/glm/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/glm && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/glm && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -727,7 +727,7 @@ build ext/glm/glm/install: phony ext/glm/glm/CMakeFiles/install.util
 # Utility command for install/local
 
 build ext/glm/glm/CMakeFiles/install/local.util: CUSTOM_COMMAND ext/glm/glm/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/glm && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/glm && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -739,7 +739,7 @@ build ext/glm/glm/install/local: phony ext/glm/glm/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build ext/glm/glm/CMakeFiles/install/strip.util: CUSTOM_COMMAND ext/glm/glm/all
-  COMMAND = cd /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/glm && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/glm && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -767,35 +767,35 @@ build update_mappings: phony ext/glfw/src/update_mappings
 # =============================================================================
 
 #############################################
-# Folder: /home/lars/Dev/Uni/glframework/cmake-build-debug
+# Folder: /home/lars/Dev/Uni/ICG/01/cmake-build-debug
 
 build all: phony libimgui.a libglad.a GLFramework ext/glfw/all ext/glm/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw
+# Folder: /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw
 
 build ext/glfw/all: phony ext/glfw/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/src
+# Folder: /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/src
 
 build ext/glfw/src/all: phony ext/glfw/src/libglfw3.a
 
 # =============================================================================
 
 #############################################
-# Folder: /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm
+# Folder: /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm
 
 build ext/glm/all: phony ext/glm/glm/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glm/glm
+# Folder: /home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glm/glm
 
 build ext/glm/glm/all: phony
 
@@ -806,14 +806,14 @@ build ext/glm/glm/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/lars/Dev/Uni/glframework/CMakeLists.txt /home/lars/Dev/Uni/glframework/CMake_submission.cmake /home/lars/Dev/Uni/glframework/ext/glfw/CMakeLists.txt /home/lars/Dev/Uni/glframework/ext/glfw/cmake_uninstall.cmake.in /home/lars/Dev/Uni/glframework/ext/glfw/src/CMakeLists.txt /home/lars/Dev/Uni/glframework/ext/glfw/src/glfw3.pc.in /home/lars/Dev/Uni/glframework/ext/glfw/src/glfw3Config.cmake.in /home/lars/Dev/Uni/glframework/ext/glfw/src/glfw_config.h.in /home/lars/Dev/Uni/glframework/ext/glm/CMakeLists.txt /home/lars/Dev/Uni/glframework/ext/glm/glm/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/lars/Dev/Uni/ICG/01/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/CMake_submission.cmake /home/lars/Dev/Uni/ICG/01/ext/glfw/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/ext/glfw/cmake_uninstall.cmake.in /home/lars/Dev/Uni/ICG/01/ext/glfw/src/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/ext/glfw/src/glfw3.pc.in /home/lars/Dev/Uni/ICG/01/ext/glfw/src/glfw3Config.cmake.in /home/lars/Dev/Uni/ICG/01/ext/glfw/src/glfw_config.h.in /home/lars/Dev/Uni/ICG/01/ext/glm/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/ext/glm/glm/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/lars/Dev/Uni/glframework/CMakeLists.txt /home/lars/Dev/Uni/glframework/CMake_submission.cmake /home/lars/Dev/Uni/glframework/ext/glfw/CMakeLists.txt /home/lars/Dev/Uni/glframework/ext/glfw/cmake_uninstall.cmake.in /home/lars/Dev/Uni/glframework/ext/glfw/src/CMakeLists.txt /home/lars/Dev/Uni/glframework/ext/glfw/src/glfw3.pc.in /home/lars/Dev/Uni/glframework/ext/glfw/src/glfw3Config.cmake.in /home/lars/Dev/Uni/glframework/ext/glfw/src/glfw_config.h.in /home/lars/Dev/Uni/glframework/ext/glm/CMakeLists.txt /home/lars/Dev/Uni/glframework/ext/glm/glm/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
+build /home/lars/Dev/Uni/ICG/01/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/CMake_submission.cmake /home/lars/Dev/Uni/ICG/01/ext/glfw/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/ext/glfw/cmake_uninstall.cmake.in /home/lars/Dev/Uni/ICG/01/ext/glfw/src/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/ext/glfw/src/glfw3.pc.in /home/lars/Dev/Uni/ICG/01/ext/glfw/src/glfw3Config.cmake.in /home/lars/Dev/Uni/ICG/01/ext/glfw/src/glfw_config.h.in /home/lars/Dev/Uni/ICG/01/ext/glm/CMakeLists.txt /home/lars/Dev/Uni/ICG/01/ext/glm/glm/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.28.3/CMakeCCompiler.cmake CMakeFiles/3.28.3/CMakeCXXCompiler.cmake CMakeFiles/3.28.3/CMakeSystem.cmake: phony
 
 
 #############################################

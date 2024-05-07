@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/lars/Dev/Uni/glframework/cmake-build-debug/ext/glfw/install_manifest.txt" files)
+file(READ "/home/lars/Dev/Uni/ICG/01/cmake-build-debug/ext/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
