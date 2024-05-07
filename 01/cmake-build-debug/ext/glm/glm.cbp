@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\glfw\;CMake Files\ext\glfw\src\;CMake Files\ext\glm\;CMake Files\ext\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Dev/Uni/computer-graphics/01/cmake-build-debug/ext/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Dev/Uni/computer-graphics/01/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Dev/Uni/computer-graphics/01/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Dev/Uni/computer-graphics/01/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Dev/Uni/computer-graphics/01/cmake-build-debug/ext/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/CMake_submission.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\ext\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glm\"/>
+		</Unit>
+		<Unit filename="C:/Dev/Uni/computer-graphics/01/ext/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
