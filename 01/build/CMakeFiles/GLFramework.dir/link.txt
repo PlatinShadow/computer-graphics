@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/GLFramework.dir/src/main.cpp.o -o GLFramework  ext/glfw/src/libglfw3.a libglad.a libimgui.a /usr/lib/librt.a -lm -ldl /usr/lib/libX11.so 
