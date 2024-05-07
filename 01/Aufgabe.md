@@ -1,5 +1,5 @@
 
-_Lars Pfrenger, Laurin Bischop_
+_Lars Pfrenger, Laurin Bischof_
 
 
 ## Question 1
@@ -12,7 +12,7 @@ _Lars Pfrenger, Laurin Bischop_
 		- Then the primitives are transformed into the Camera Frame by applying the View Matrix and finally are projected into the Clip Space using the Projection Matrix 
 		- Additionally points outside the Clip Space (range -1.0 to 1.0) are thrown away to save computation 
 		- In OpenGL this stage is defined by fixed and custom Shaders in the pipeline
-			- MVP  Matrix application in Vertex Shader
+			- MVP Matrix application in Vertex Shader
 			- Additional Primitives in Tesselation or Geometry Shader
 	- **Rasterization Stage**
 		- In this stage the primitives are rasterized into fragments which can then be written to a framebuffer
@@ -27,9 +27,22 @@ _Lars Pfrenger, Laurin Bischop_
 		- Additional vertices can be added using Tesselation or Geometry Shaders
 		- Primites are assembled from the vertices
 		- Points out of the clipping space are thrown away to save computation
+- c)
+	- **Application Stage**
+	    - glUseProgram: Activates a shader program, which determines how vertex and fragment shaders process data.
+	    - glUniform: Sets values of uniform variables in a shader program, influencing shader behavior across multiple invocations.
+	    
+	- **Geometry Stage**
+	    - glEnableVertexAttribArray: Enables a vertex attribute array for use in vertex processing.
+	    - glVertexAttribPointer: Specifies the format and source of vertex array data, setting up input for vertex shaders.
+	    
+	- **Rasterization Stage**
+	    - glViewport: Defines the area of the framebuffer that the final image will be rendered into.
+	    - glEnable(GL_CULL_FACE), glDisable(GL_CULL_FACE): Enables or disables face culling, controlling which faces (front or back) are rendered or discarded.
 		
+## Question 2
+- a)
+	- glDisable(GL_CULL_FACE) can be used to achieve this effect
+	- Benefits: increased performane and less overdraw because faces that face away form the camera are not visible.
+	- glFrontFace(GL_CCW) can be used to specify that the front sides of triangles have a counterclockwise winding
 
-
-
----
-[[Interaktive Computergraphik]]
