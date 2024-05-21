@@ -232,7 +232,6 @@ std::vector<tetrahedron> splitFractalTetrahedron(std::vector<tetrahedron> tetrah
     {
         std::array<tetrahedron, 4> splitTetrahedra{};
 
-        // TODO: Subdivide tetrahedron to create 4 new ones.
         vertex mid01 = vertexLerp(th[0], th[1], 0.5);
         vertex mid02 = vertexLerp(th[0], th[2], 0.5);
         vertex mid03 = vertexLerp(th[0], th[3], 0.5);
@@ -257,8 +256,7 @@ std::vector<tetrahedron> splitFractalTetrahedron(std::vector<tetrahedron> tetrah
 std::vector<vertex> createFractalTetrahedronVertices()
 {
     tetrahedron initialTetrahedron{};
-    
-    // TODO: create a tetrahedron containing 4 vertices.
+
     initialTetrahedron[0] = { glm::vec3(1, 1, 1), glm::vec2(0.5, 1.0), glm::vec3(), glm::vec3(1, 0, 0) };
     initialTetrahedron[1] = { glm::vec3(-1, -1, 1), glm::vec2(0.0, 0.0), glm::vec3(), glm::vec3(0, 1, 0) };
     initialTetrahedron[2] = { glm::vec3(-1, 1, -1), glm::vec2(1.0, 0.0), glm::vec3(), glm::vec3(0, 0, 1) };
@@ -365,13 +363,13 @@ int main()
         {
             // draw cube
             glBindVertexArray(cubaVAO.id);
-            glDrawArrays(GL_TRIANGLES, 0, cubeVertices.size()); // TODO: Set the correct number of vertices to be rendered
+            glDrawArrays(GL_TRIANGLES, 0, cubeVertices.size());
         }
         else if (drawVAO == 1)
         {
             // draw fractal tetrahedron
             glBindVertexArray(tetrahedronVAO.id);
-            glDrawArrays(GL_TRIANGLES, 0, tetrahedronVertices.size()); // TODO: Set the correct number of vertices to be rendered
+            glDrawArrays(GL_TRIANGLES, 0, tetrahedronVertices.size());
         }
 
         glframework::endFrame();
