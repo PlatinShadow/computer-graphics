@@ -8,22 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/context.c" "ext/glfw/src/CMakeFiles/glfw.dir/context.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/context.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/egl_context.c" "ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/glx_context.c" "ext/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/init.c" "ext/glfw/src/CMakeFiles/glfw.dir/init.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/init.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/input.c" "ext/glfw/src/CMakeFiles/glfw.dir/input.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/input.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/linux_joystick.c" "ext/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/monitor.c" "ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/osmesa_context.c" "ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/posix_thread.c" "ext/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/posix_time.c" "ext/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/vulkan.c" "ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/window.c" "ext/glfw/src/CMakeFiles/glfw.dir/window.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/window.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/x11_init.c" "ext/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/x11_monitor.c" "ext/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/x11_window.c" "ext/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/glfw/src/xkb_unicode.c" "ext/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/context.c" "ext/glfw/src/CMakeFiles/glfw.dir/context.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/context.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/egl_context.c" "ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/init.c" "ext/glfw/src/CMakeFiles/glfw.dir/init.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/init.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/input.c" "ext/glfw/src/CMakeFiles/glfw.dir/input.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/input.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/monitor.c" "ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/osmesa_context.c" "ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/vulkan.c" "ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/wgl_context.c" "ext/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/win32_init.c" "ext/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/win32_joystick.c" "ext/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/win32_monitor.c" "ext/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/win32_thread.c" "ext/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/win32_time.c" "ext/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/win32_window.c" "ext/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/glfw/src/window.c" "ext/glfw/src/CMakeFiles/glfw.dir/window.c.obj" "gcc" "ext/glfw/src/CMakeFiles/glfw.dir/window.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

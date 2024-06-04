@@ -1,2 +1,2 @@
-/usr/bin/ar qc libglad.a CMakeFiles/glad.dir/ext/glfw/deps/glad_gl.c.o
-/usr/bin/ranlib libglad.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc libglad.a CMakeFiles/glad.dir/ext/glfw/deps/glad_gl.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ranlib.exe libglad.a

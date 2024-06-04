@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lars/Dev/Uni/ICG/02/ext/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_glfw.cpp.o" "gcc" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_glfw.cpp.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.o" "gcc" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/imgui/imgui.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.o" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/imgui/imgui_demo.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.o" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/imgui/imgui_draw.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/imgui/imgui_tables.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_tables.cpp.o" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_tables.cpp.o.d"
-  "/home/lars/Dev/Uni/ICG/02/ext/imgui/imgui_widgets.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.o" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.o.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_glfw.cpp.obj" "gcc" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_glfw.cpp.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.obj" "gcc" "CMakeFiles/imgui.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/imgui/imgui.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.obj" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui.cpp.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/imgui/imgui_demo.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.obj" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_demo.cpp.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/imgui/imgui_draw.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.obj" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_draw.cpp.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/imgui/imgui_tables.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_tables.cpp.obj" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_tables.cpp.obj.d"
+  "C:/Dev/Uni/computer-graphics/02/ext/imgui/imgui_widgets.cpp" "CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.obj" "gcc" "CMakeFiles/imgui.dir/ext/imgui/imgui_widgets.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
